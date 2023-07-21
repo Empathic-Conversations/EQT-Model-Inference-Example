@@ -15,7 +15,7 @@ It is recommended to directly clone this repository. Source code under the folde
 One can directly create a conda environment from `environment.yml` or install the dependencies manually. Specifically, one should consult the official `tensorflow-gpu` [installation documentation](https://www.tensorflow.org/install) if one choose the later approach.
 
 ## __Model Weights__
-We contact the authors and they are willing to share the trained model weights, stored in [the google drive](https://drive.google.com/drive/folders/1H0bAh-NDPZKDBN6U1JV3o896G1Eo4ldr?usp=drive_link). There should be a `models.7z` compressed file containing weights for two models, i.e., the intent predictor and question type predictor. Please open an issue if the link does not work. After downloading the model weights, please place the weights in `models/type` and `models/intent` respectively.
+We contact the authors and they are willing to share the trained model weights, stored in [the Google Drive](https://drive.google.com/drive/folders/1H0bAh-NDPZKDBN6U1JV3o896G1Eo4ldr?usp=drive_link). There should be a `models.7z` compressed file containing weights for two models, i.e., the intent predictor and question type predictor. Please open an issue if the link does not work. After downloading the model weights, please place the weights in `models/type` and `models/intent` respectively.
 
 ## __Folder Structure__
 You should have a folder structure similar to the plot below,
