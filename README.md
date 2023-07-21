@@ -1,7 +1,7 @@
 # __Empathetic Question Taxonomy Inference Example__
 
 ## __Introduction__
-Showing how to predict the question type and intention using models from the [EQT paper](https://aclanthology.org/2022.acl-long.211/). The [official GitHub repository](https://github.com/Sea94/EQT) provide the source code but,
+Showing how to predict the question type and intention using models from [the EQT paper](https://aclanthology.org/2022.acl-long.211/). [The official GitHub repository](https://github.com/Sea94/EQT) provide the source code but,
 
 1. The code is not easily understandable.
 2. The authors did not provide pre-trained model weights in the repository.
@@ -9,7 +9,7 @@ Showing how to predict the question type and intention using models from the [EQ
 Therefore, we provide a short [example notebook](inference.ipynb) that demonstrates how to leverage their pre-trained models to predict question types and question intents for arbitrary dialogues.
 
 ## __Getting Started__
-It is recommended to directly clone this repository. Source code under the folder [`src`](src) is directly copied from the official repository with slight reorganization. The notebook [`inference.ipynb`](inference.ipynb) mainly demonstrates how to use the functions provided by the EQT repository. So, it is possible to read the notebook and copy source code necessary for inference only.
+It is recommended to directly clone this repository. Source code under [the folder `src`](src) is directly copied from the official repository with slight reorganization. The notebook [`inference.ipynb`](inference.ipynb) mainly demonstrates how to use the functions provided by the EQT repository. So, it is possible to read the notebook and copy source code necessary for inference only.
 
 ## __Dependencies__
 One can directly create a conda environment from `environment.yml` or install the dependencies manually. Specifically, one should consult the official `tensorflow-gpu` [installation documentation](https://www.tensorflow.org/install) if one choose the later approach.
